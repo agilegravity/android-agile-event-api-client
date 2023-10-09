@@ -87,8 +87,10 @@ apiClient.eventAPICall(events) { bricks, error ->
 }
 ```
 
-## Conclusion
+---
 
-The `APIClient` SDK simplifies the process of making API requests in your Android applications. Ensure to replace `"yourChannelId"` and `"yourApiSecret"` with your actual `channelId` and `apiSecret`. Always handle the errors to provide feedback to the users or for debugging purposes. Adjust your implementation as per your requirements.
+**Note:** Replace placeholders like `"yourChannelId"` and `"yourApiSecret"` with your actual `channelId` and `apiSecret`. Also, handle the received `bricks` and `error` as per your application's requirements.
 
-For any further queries or issues, feel free to contact us.
+### For Contributors and Developers
+
+This SDK is designed to be straightforward and easily integrated into iOS applications. It handles complex tasks like authentication and session management internally, allowing developers to focus on utilizing the event data returned by the API. We encourage contributions to make this tool more efficient and versatile, catering to a broader range of use cases and scenarios.
