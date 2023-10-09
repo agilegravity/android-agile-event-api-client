@@ -36,7 +36,7 @@ class FirstFragment : Fragment() {
         recyclerView.adapter = bricksAdapter
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-        val eventApiClient =  APIClient("6520d1d59b38791b72743b38", "77^BDQhbOhx7#\$FGvFqqy\$jKG1Bn7s9CWWIT8MlVtZBGtto%z")
+        val eventApiClient =  APIClient("<YOUR_CHANNEL_ID>", "<YOUR_API_SECRET>")
 
 
 
